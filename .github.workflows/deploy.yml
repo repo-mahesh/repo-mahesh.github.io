@@ -14,8 +14,12 @@ jobs:
           node-version: 18
       - run: npm ci
       - run: npm run build
+      - name: List build output
+        run: ls -la dist/assets
       - name: Create .nojekyll file
-        run: touch ./dist/.nojekyll
+        run: |
+          touch ./dist/.nojekyll
+          cp ./dist/index.html ./dist/404.html
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
