@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an axios instance with default settings
 const axiosInstance = axios.create({
-    baseURL: "http://127.0.0.1:8000", // Replace with your backend URL
+    baseURL: "https://98.81.110.148/", // Replace with your backend URL
     withCredentials: true, // Ensures that cookies (JWT) are sent with requests
 });
 

@@ -14,7 +14,7 @@ const GoogleAuth = () => {
       console.log("Google token response:", credentialResponse); // Debug log
 
       // Send token to Django backend
-      const response = await fetch("http://127.0.0.1:8000/api/auth/google/", {
+      const response = await fetch("https://98.81.110.148/api/auth/google/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

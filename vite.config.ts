@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react-swc";
 // https://vite.dev/config/
 export default defineConfig({
   // base: "/repo-mahesh/",
-  base: "/",
+  base: "",
   assetsInclude: ["**/*.svg"], // Add this line to handle SVG files
   build: {
     outDir: 'dist',
