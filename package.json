@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://repo-mahesh.github.io/repo-mahesh.github.io",
+  "homepage": "https://repo-mahesh.github.io/",
   "dependencies": {
     "@react-oauth/google": "^0.12.1",
     "axios": "^1.7.9",
